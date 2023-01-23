@@ -25,13 +25,14 @@ To use this algorithm, there are two options:
   - **age** - `int`
   - **sex** - `string` ('female' or 'male')
   - **fare** - `int` (either 13, 20, or 83 - approximately $1300, $2000, or $8300 in today's US$)
-  - **parents** = `int` (number of parents on board)
+  - **parents** - `int` (number of parents on board)
   - **siblings** - `int` (number of siblings on board)
   - **spouse** - `int` (0 = spouse is not on board. 1 = spouse is on board)
   - **children** - `int` (number of children on board)
   - **title** - `string ('Mr', 'Mrs', 'Miss', or 'Master')
 
   An example of a request would be https://darrendube.pythonanywhere.com/?age=36&sex=female&fare=83&parents=0&siblings=0&spouse=0&children=0&title=Mrs. 
+  
   The server either returns:
   - `[0]` - likely **would not** have survived, or
   - `[1]` - likely **would** have survived
