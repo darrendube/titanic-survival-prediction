@@ -15,7 +15,7 @@ Try it interactively [here](https://darrendube.com/projects/titanic-dataset).
 To use this algorithm, there are two options:
 
 - ### Interactive
-  I've made a webpage that allows you to input the required parameters in a form, with the result output on submission of the form. Try it [here](https://darrendube.com/projects/titanic-dataset).
+  I've made a webpage that allows you to input the required parameters in a form. The webpage then outputs the result on submission of the form. Try it [here](https://darrendube.com/projects/titanic-dataset).
   
 - ### GET request
   The flask server is hosted at https://darrendube.pythonanywhere.com/. 
