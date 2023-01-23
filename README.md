@@ -1,3 +1,5 @@
+<base target="_blank">
+
 # Titanic Survival Prediction
 
 An algorithm that determines whether you're likely to have survived the Titanic or not to an accuracy of 77%, based on parameters such as age, fare, number of dependents on board, and sex.
